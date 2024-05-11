@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NitroType Racer Lookup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>NitroType Racer Lookup</h1>
+        <input type="text" id="usernameInput" placeholder="Enter NitroType username">
+        <button onclick="fetchRacerData()">Search</button>
+
+        <div id="racerInfo" class="hidden">
+            <img id="carImage" src="" alt="Racer's Car">
+            <div id="details">
+                <h2 id="username"></h2>
+                <p><strong>Top WPM:</strong> <span id="topWPM"></span></p>
+                <p><strong>Average WPM:</strong> <span id="avgWPM"></span></p>
+                <p><strong>Races:</strong> <span id="totalRaces"></span></p>
+                <p><strong>Level:</strong> <span id="level"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
