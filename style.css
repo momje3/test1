@@ -54,6 +54,26 @@ button {
 #details {
     text-align: left;
 }
+/* Add styles for the badge */
+#badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.redBadge {
+    background-color: red;
+}
+
+.greenBadge {
+    background-color: green;
+}
+
+/* Other existing styles remain the same */
+
 
 .hidden {
     display: none;
